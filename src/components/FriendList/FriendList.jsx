@@ -26,4 +26,4 @@ FriendList.propTypes = {
       isOnline: PropTypes.bool,
     })
   ),
-};
+}; 
