@@ -5,7 +5,7 @@ import { colorScale } from 'utils';
 export const Statistics = ({ title, stats }) => (
     <section className={style.statistics}>
       {title && <h2 className={style.title}>{title.toUpperCase()}</h2>}
-      <ul className={style.statList}>
+      <ul className={style["stat-list"]}>
         {stats.map(({ id, label, percentage }) => (
           <li
             className={style.item}
